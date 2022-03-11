@@ -15,3 +15,11 @@ new__btn.addEventListener('click', func => {
         console.log('in development')
     }
 })
+
+new__btn.style.paddingBottom = "6px"
+new__btn.style.fontWeight = "bold"
+new__btn.style.textTransform = "uppercase"
+new__btn.style.fontsize = "20px"
+new__btn.style.background = "none"
+new__btn.style.border = "none"
+new__btn.style.color = "white"
