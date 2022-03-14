@@ -12,7 +12,7 @@ new__btn.addEventListener('click', func => {
         document.querySelector('.ytp-ad-skip-button').click()
         console.log("t.me/WNDKND")
     } else {
-        console.log('in development')
+        alert("There are no ads here | Здесь рекламы нет")
     }
 })
 
@@ -23,3 +23,4 @@ new__btn.style.fontsize = "20px"
 new__btn.style.background = "none"
 new__btn.style.border = "none"
 new__btn.style.color = "white"
+new__btn.style.cursor = "pointer"
